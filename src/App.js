@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./routes/home/home.component";
 import Navigation from "./routes/navigation/navigation.component";
+import SignIn from "./routes/sign-in/sign-in.component";
 
 const Shop = () => {
   return <h1>I am shop page</h1>
@@ -13,6 +14,7 @@ const App = () => {
       {/* Index specifies that that element has to be rendered with its route parent as well */}
         <Route index element={<Home/>}/>
         <Route path='shop' element={<Shop/>}/>
+        <Route path='sign-in' element={<SignIn/>}/>
       </Route>
     </Routes>
   );
