@@ -1,5 +1,5 @@
 # Second Web Application
-## 
+## A more advanced React E-commerce web application which contains CRUD operation, Firebase authentication and database ...
 
 # Getting Started with Create React App
 
